@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/zowilliams.github.io/static/css/main.8ec7339a.css",
-    "main.js": "/zowilliams.github.io/static/js/main.e925f677.js",
+    "main.css": "/zowilliams.github.io/static/css/main.a5c35ddc.css",
+    "main.js": "/zowilliams.github.io/static/js/main.511a56ef.js",
     "static/js/453.4114e58a.chunk.js": "/zowilliams.github.io/static/js/453.4114e58a.chunk.js",
     "static/media/tvScreen.png": "/zowilliams.github.io/static/media/tvScreen.184bede378f457d78df8.png",
     "index.html": "/zowilliams.github.io/index.html",
-    "main.8ec7339a.css.map": "/zowilliams.github.io/static/css/main.8ec7339a.css.map",
-    "main.e925f677.js.map": "/zowilliams.github.io/static/js/main.e925f677.js.map",
+    "main.a5c35ddc.css.map": "/zowilliams.github.io/static/css/main.a5c35ddc.css.map",
+    "main.511a56ef.js.map": "/zowilliams.github.io/static/js/main.511a56ef.js.map",
     "453.4114e58a.chunk.js.map": "/zowilliams.github.io/static/js/453.4114e58a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ec7339a.css",
-    "static/js/main.e925f677.js"
+    "static/css/main.a5c35ddc.css",
+    "static/js/main.511a56ef.js"
   ]
 }
