@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.7dd2f29e.css",
-    "main.js": "/static/js/main.f44d482f.js",
+    "main.js": "/static/js/main.04c61bdd.js",
     "static/js/453.4114e58a.chunk.js": "/static/js/453.4114e58a.chunk.js",
     "static/media/tvScreen.png": "/static/media/tvScreen.184bede378f457d78df8.png",
     "index.html": "/index.html",
     "main.7dd2f29e.css.map": "/static/css/main.7dd2f29e.css.map",
-    "main.f44d482f.js.map": "/static/js/main.f44d482f.js.map",
+    "main.04c61bdd.js.map": "/static/js/main.04c61bdd.js.map",
     "453.4114e58a.chunk.js.map": "/static/js/453.4114e58a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7dd2f29e.css",
-    "static/js/main.f44d482f.js"
+    "static/js/main.04c61bdd.js"
   ]
 }
