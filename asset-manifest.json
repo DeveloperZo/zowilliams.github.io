@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/zowilliams.github.io/static/css/main.e11acc1d.css",
-    "main.js": "/zowilliams.github.io/static/js/main.a785133c.js",
+    "main.css": "/zowilliams.github.io/static/css/main.77b34b6a.css",
+    "main.js": "/zowilliams.github.io/static/js/main.e5b2a37e.js",
     "static/js/977.a9eb2898.chunk.js": "/zowilliams.github.io/static/js/977.a9eb2898.chunk.js",
     "static/js/732.cc456c8a.chunk.js": "/zowilliams.github.io/static/js/732.cc456c8a.chunk.js",
     "static/js/453.4114e58a.chunk.js": "/zowilliams.github.io/static/js/453.4114e58a.chunk.js",
     "static/media/tvScreen.png": "/zowilliams.github.io/static/media/tvScreen.184bede378f457d78df8.png",
     "index.html": "/zowilliams.github.io/index.html",
-    "main.e11acc1d.css.map": "/zowilliams.github.io/static/css/main.e11acc1d.css.map",
-    "main.a785133c.js.map": "/zowilliams.github.io/static/js/main.a785133c.js.map",
+    "main.77b34b6a.css.map": "/zowilliams.github.io/static/css/main.77b34b6a.css.map",
+    "main.e5b2a37e.js.map": "/zowilliams.github.io/static/js/main.e5b2a37e.js.map",
     "732.cc456c8a.chunk.js.map": "/zowilliams.github.io/static/js/732.cc456c8a.chunk.js.map",
     "453.4114e58a.chunk.js.map": "/zowilliams.github.io/static/js/453.4114e58a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e11acc1d.css",
-    "static/js/main.a785133c.js"
+    "static/css/main.77b34b6a.css",
+    "static/js/main.e5b2a37e.js"
   ]
 }
