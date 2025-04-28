@@ -39,7 +39,7 @@ const quests: Quest[] = [
     'Elevated architectural practices across multiple teams by implementing design consistency, bridging communication gaps, and establishing efficient development workflows. Cultivated technical leadership through deliberate mentorship while strategically aligning technology decisions with business objectives.',
   type: 'career',
   startDate: new Date('2024-05-02'),
-  endDate: new Date(2038, 2, 10), // Ongoing
+  endDate: new Date('2025-05-17'), // Ongoing
   roles: ['Senior Consultant', 'Software Architect'],
   tags: ['Architecture', 'Leadership', 'UI Design', 'Cross-Team Collaboration'],
   accomplishments: [
