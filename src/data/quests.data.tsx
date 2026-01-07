@@ -29,6 +29,80 @@ const quests: Quest[] = [
 {
   id: 1,
   titles: {
+    retro: 'The Platform Architect',
+    sleek: 'Engineering Manager at Progyny',
+  },
+  company: 'Progyny',
+  workTitle: 'Engineering Manager',
+  description:
+    'Managed a team of 5 engineers to plan and deliver platform-critical capabilities for an enterprise fertility/family-building benefits platform serving ~6.47M covered lives.',
+  summary:
+    'Led engineering team responsible for core platform capabilities including identity/auth, content, communications, and benefits configuration. Established strategic technical direction through HIPAA-aware architecture, vendor integration patterns, and AI-assisted development workflows while maintaining compliance and scalability.',
+  type: 'career',
+  startDate: new Date('2025-05-01'),
+  endDate: new Date(2038, 2, 10), // Ongoing
+  roles: ['Engineering Manager'],
+  tags: ['Engineering Management', 'Healthcare', 'HIPAA', 'Identity/Auth', 'Platform Architecture', 'AI-Assisted Development'],
+  accomplishments: [
+    {
+      description:
+        'Managed a team of 5 engineers to plan and deliver platform-critical capabilities (AuthN/AuthZ, content, communications, benefits/eligibility configuration) for an enterprise fertility/family-building benefits platform serving ~6.47M covered lives.',
+      role: 'Engineering Manager',
+      learnings: [
+        'Learned that managing platform-critical systems requires balancing feature delivery with system reliability',
+        'Discovered that clear capability boundaries help teams maintain focus and reduce cross-team dependencies'
+      ],
+    },
+    {
+      description:
+        'Responsible for identity/auth strategy (FHIR-aligned JWT scopes) and standardized Auth0 via reusable Terraform modules to improve repeatability and auditability.',
+      role: 'Engineering Manager',
+      learnings: [
+        'Learned that infrastructure-as-code patterns significantly improve auditability and compliance documentation',
+        'Discovered that FHIR-aligned scopes provide better interoperability in healthcare ecosystems'
+      ],
+    },
+    {
+      description:
+        'Key planning/estimation partner for the new platform: translated ambiguity into epics, dependency maps, and phased delivery plans to support scale and improve utilization.',
+      role: 'Engineering Manager',
+      learnings: [
+        'Learned that breaking ambiguity into structured planning artifacts accelerates team alignment',
+        'Discovered that dependency mapping early prevents costly rework and improves resource utilization'
+      ],
+    },
+    {
+      description:
+        'Led HIPAA-aware vendor evaluations and integration strategy (BAA boundaries, PHI routing rules) using adapter contracts to reduce lock-in and keep channel expansion optional.',
+      role: 'Engineering Manager',
+      learnings: [
+        'Learned that adapter patterns provide flexibility while maintaining compliance boundaries',
+        'Discovered that BAA boundaries and PHI routing rules must be designed into architecture from the start'
+      ],
+    },
+    {
+      description:
+        'Built client implementation/configuration tooling for tenant-specific benefit plans and eligibility rules, converting ambiguous requirements into governed configuration patterns.',
+      role: 'Engineering Manager',
+      learnings: [
+        'Learned that configuration patterns can transform complex business rules into maintainable systems',
+        'Discovered that governed configuration reduces implementation time while maintaining flexibility'
+      ],
+    },
+    {
+      description:
+        'Accelerated discovery and delivery artifacts using AI-assisted workflows with safe-data guardrails (no-PHI prompts, redaction standards, human verification).',
+      role: 'Engineering Manager',
+      learnings: [
+        'Learned that AI-assisted workflows require careful guardrails in healthcare contexts',
+        'Discovered that structured redaction standards enable AI productivity while maintaining HIPAA compliance'
+      ],
+    },
+  ],
+},
+{
+  id: 2,
+  titles: {
     retro: 'Rise of the Architect',
     sleek: 'Senior Consultant & Software Architect at Inspire11',
   },
@@ -38,7 +112,7 @@ const quests: Quest[] = [
   summary:
     'Elevated architectural practices across multiple teams by implementing design consistency, bridging communication gaps, and establishing efficient development workflows. Cultivated technical leadership through deliberate mentorship while strategically aligning technology decisions with business objectives.',
   type: 'career',
-  startDate: new Date('2024-05-02'),
+  startDate: new Date('2024-05-01'),
   endDate: new Date('2025-05-17'), // Ongoing
   roles: ['Senior Consultant', 'Software Architect'],
   tags: ['Architecture', 'Leadership', 'UI Design', 'Cross-Team Collaboration'],
@@ -90,8 +164,8 @@ const quests: Quest[] = [
     },
     {
       description:
-        'Interfaced with any necessary part of the SDLC to complete tasks assigned to team.',
-      role: 'Software Architect',
+        'Optimized workflows, increasing overall team velocity.',
+      role: 'Senior Consultant',
       learnings: [
         'Learned that maximizing team velocity requires teams to appropriately understand the strategic direction and implementation goal'
       ],
@@ -99,7 +173,7 @@ const quests: Quest[] = [
   ],
 },
 {
-  id: 2,
+  id: 3,
   titles: {
     retro: "The Modernizer's Quest",
     sleek: 'Senior Consultant & Software Architect at Productive Edge',
@@ -112,7 +186,7 @@ const quests: Quest[] = [
     'Modernized legacy healthcare systems while maintaining critical business continuity. Designed scalable cloud architectures, integrated secure payment solutions, and architected conversions to a multi-tenant SaaS model',
   type: 'career',
   startDate: new Date('2020-02-01'),
-  endDate: new Date('2024-04-31'),
+  endDate: new Date('2024-05-31'),
   roles: ['Senior Consultant', 'Software Architect'],
   tags: ['Legacy Modernization', 'Cloud', 'SaaS', 'Healthcare', 'Payment Processing'],
   accomplishments: [
@@ -149,11 +223,20 @@ const quests: Quest[] = [
     },
     {
       description:
-        'Led full stack modernization of healthcare applications.',
+        'Led full stack modernization of application for claims while maintaining HIPAA compliance.',
       role: 'Software Architect',
       learnings: [
         'Learned that healthcare data practices impact technical decisions and constraints',
         'Learned that compliance requirements should be considered in reusable patterns'
+      ],
+    },
+    {
+      description:
+        'Remotely debugged kiosk hardware issues, significantly improving client support.',
+      role: 'Senior Consultant',
+      learnings: [
+        'Learned that hardware debugging requires different troubleshooting approaches than software issues',
+        'Discovered that remote diagnostics can effectively resolve hardware problems when proper logging is in place'
       ],
     },
     {
@@ -173,16 +256,17 @@ const quests: Quest[] = [
     },
     {
       description:
-        'Architected transition of monolithic systems to multi-tenant SaaS models.',
+        'Transitioned monolithic systems to multi-tenant SaaS models while maintaining EHR connections.',
       role: 'Software Architect',
       learnings: [
-        'Learned that multi-tenant architectures can be effectively handled through configuration'
+        'Learned that multi-tenant architectures can be effectively handled through configuration',
+        'Discovered that maintaining EHR integrations during architectural transitions requires careful API design'
       ],
     },
   ],
 },
 {
-  id: 3,
+  id: 4,
   titles: {
     retro: 'Leadership and Code',
     sleek: 'Team Lead / Interim Director of Engineering at Lendr',
@@ -228,6 +312,15 @@ const quests: Quest[] = [
     },
     {
       description:
+        'Achieved target KPIs as interim director, while onboarding incoming CTO and managing team.',
+      role: 'Interim Director of Engineering',
+      learnings: [
+        'Learned that maintaining performance metrics during transitions requires clear communication and delegation',
+        'Discovered that effective onboarding of new leadership benefits from structured knowledge transfer'
+      ],
+    },
+    {
+      description:
         'Established a structured UAT process aligning business stakeholders with development priorities, improving feature quality.',
       role: 'Team Lead',
       learnings: [
@@ -237,9 +330,18 @@ const quests: Quest[] = [
     },
     {
       description:
-        'Collaborated with the architect to implement product-wide strategy and technical standards while mentoring team members.',
+        'Collaborated with senior architects to implement product-wide strategy and enforce technical standards.',
       role: 'Team Lead',
       learnings: [],
+    },
+    {
+      description:
+        'Aligned technical initiatives with regulatory requirements to reduce defects and prepare for new features.',
+      role: 'Team Lead',
+      learnings: [
+        'Learned that regulatory compliance should be built into development processes rather than added as an afterthought',
+        'Discovered that early consideration of regulatory requirements prevents costly refactoring later'
+      ],
     },
     {
       description:
@@ -250,7 +352,7 @@ const quests: Quest[] = [
   ],
 },
 {
-  id: 4,
+  id: 5,
   titles: {
     retro: "The Solo Developer's Journey",
     sleek: 'Senior Consultant at SWC Technology Partners',
@@ -300,7 +402,7 @@ const quests: Quest[] = [
   ],
 },
 {
-  id: 5,
+  id: 6,
   titles: {
     retro: "The Developer's Forge",
     sleek: 'Developer at Manor Resources',
@@ -344,7 +446,7 @@ const quests: Quest[] = [
   ],
 },
 {
-  id: 6,
+  id: 7,
   titles: {
     retro: 'Aerospace Foundations',
     sleek: 'ITCFP Participant / Developer at The Boeing Company',
@@ -390,7 +492,7 @@ const quests: Quest[] = [
   ],
 },
 {
-  id: 7,
+  id: 8,
   titles: {
     retro: "The Game Developer's Path",
     sleek: 'Game Developer (Personal Projects)',
@@ -419,7 +521,7 @@ const quests: Quest[] = [
   ],
 },
 {
-  id: 8,
+  id: 9,
   titles: {
     retro: 'Mastering the AI Frontier',
     sleek: 'AI Enthusiast (Hybrid)',
@@ -456,11 +558,12 @@ const quests: Quest[] = [
       },
       {
         description:
-          'Enhanced Python skills by building a family of agents for my family',
+          'Enhanced Python skills and utilized Jupyter notebooks for data analysis and model interaction.',
         role: 'AI Enthusiast (Hybrid)',
         learnings: [
           'Started learning with HuggingFace Agent course',
-          'Created personalized AI assistants using Replit, Discord bots, and Cursor'
+          'Created personalized AI assistants using Replit, Discord bots, and Cursor',
+          'Learned that Jupyter notebooks provide effective environments for iterative AI model experimentation'
         ],
       },
       {
@@ -484,7 +587,7 @@ const quests: Quest[] = [
     ]
 },
 {
-  id: 9,
+  id: 10,
   titles: {
     retro: "The Scholar's Path",
     sleek: "Education"
@@ -507,7 +610,7 @@ const quests: Quest[] = [
   tags: ["Education", "Degree"]
 },
 {
-  id: 10, // Assuming next available ID is 10
+  id: 11,
   titles: {
     retro: "The Portfolio Advisor's Quest",
     sleek: "Independent Technical Consultant for Hedge Fund Company"
@@ -557,7 +660,7 @@ const quests: Quest[] = [
   ]
 },
 {
-  id: 11, // Next available ID
+  id: 12,
   titles: {
     retro: "The Legal Patent Expedition",
     sleek: "Technical Director Consultant for Legal Patent Startup"
