@@ -5,6 +5,13 @@ import quests from '../../data/quests.data';
 import './ResumeView.css';
 import generatePDF from '../../utils/pdfGenerator';
 
+// Helper function to format dates consistently, avoiding timezone issues
+const formatDate = (date: Date): string => {
+  const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  // Use UTC methods to avoid timezone conversion issues
+  return `${monthNames[date.getUTCMonth()]} ${date.getUTCFullYear()}`;
+};
+
 const ResumeView: React.FC = () => {
   const { theme } = useTheme()!;
   
@@ -117,10 +124,10 @@ const ResumeView: React.FC = () => {
                 <div className="company-period">
                   <span className="company-name">{job.company}</span>
                   <span className="job-period">
-                    {new Date(job.startDate).toLocaleDateString('en-US', { year: 'numeric', month: 'short' })} – 
+                    {formatDate(job.startDate)} – 
                     {job.endDate.getFullYear() >= 2030 
                       ? ' Present' 
-                      : new Date(job.endDate).toLocaleDateString('en-US', { year: 'numeric', month: 'short' })}
+                      : formatDate(job.endDate)}
                   </span>
                 </div>
               </div>
