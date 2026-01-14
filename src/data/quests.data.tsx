@@ -29,7 +29,7 @@ const quests: Quest[] = [
 {
   id: 1,
   titles: {
-    retro: 'The Platform Architect',
+    retro: 'The Platform Manager',
     sleek: 'Engineering Manager at Progyny',
   },
   company: 'Progyny',
@@ -201,10 +201,11 @@ const quests: Quest[] = [
     },
     {
       description:
-        'Defined project scopes with clients and managed Azure cloud infrastructures from planning to support.',
+        'Managed project scope, budget and expectations with clients in addition to technical implementation',
       role: 'Senior Consultant',
       learnings: [
-        'Learned to be proficient in architecting for a language I was not well-versed in'
+        'Learned to be proficient in architecting for a language I was not well-versed in',
+        'Learned to ground stories in facts and data that the client cares about'
       ],
     },
     {
